@@ -1,0 +1,44 @@
+# --- Python Artifacts ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# --- Large Models & Binaries (Auto-downloaded) ---
+# Ignore the Piper TTS folder (it's huge and OS-specific)
+piper/
+
+# Ignore large model files
+*.onnx
+*.bin
+*.tflite
+
+# Exception: Un-comment the line below if you WANT to share your custom wake word
+# !wakeword.onnx
+
+# --- User Configuration & Memory ---
+# Keep chat history local (Privacy)
+memory.json
+chat_memory.json
+
+# Keep personal API keys or settings local
+# (Optional: comment this out if you WANT to share your config)
+# config.json
+
+# --- Temporary/Generated Media ---
+*.wav
+*.mp3
+*.jpg
+*.png
+camera_capture.jpg
+current_image.jpg
+test_audio.wav
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
