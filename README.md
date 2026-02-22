@@ -1,4 +1,4 @@
-# Be More Agent 🤖
+# Meet bmo
 **A Customizable, Offline-First AI Agent for Raspberry Pi**
 
 [![Watch the Demo](https://img.youtube.com/vi/l5ggH-YhuAw/maxresdefault.jpg)](https://youtu.be/l5ggH-YhuAw)
